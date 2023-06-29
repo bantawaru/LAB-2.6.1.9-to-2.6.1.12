@@ -1,0 +1,44 @@
+# input a float value for variable a here
+# input a float value for variable b here
+
+# output the result of addition here
+# output the result of subtraction here
+# output the result of multiplication here
+# output the result of division here
+# output the result of floor division here
+# output the result of esponent here
+
+#print("\nThat's all, folks!")
+
+a = float(input("value for variable a: "))
+b = float(input("value for variable b: "))
+
+print("result of addition:       ", a + b)
+print("result of subtraction:    ", a - b)
+print("result of multiplication: ", a * b)
+print("result of division:       ", a / b)
+print("result of exponent:", (a**2),(b**2))
+print ("result of floor division:",a//b)
+
+print("\nThat's all, folks!\n")
+
+####################################################################################################
+x = float(input("Enter value for x: "))
+
+# My code
+y = 1/(x + (1/(x + (1/(x + (1/x))))))
+print("y =", y)
+
+#####################################################################################################
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+minutes= (mins+dura) %60 #total minutes from start to finish
+hours=int(hour+ (mins+dura)/60)% 24 # total hours taken 
+
+print("\nThe event will end at", hours, ":", minutes, end="\n")
+
+#####################################################################################################
+
+
